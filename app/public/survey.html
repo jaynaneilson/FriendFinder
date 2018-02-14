@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/solar/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <style>
+        footer {
+            background: #0a252e
+        }
+
+        form {
+            padding-bottom: 10%;
+            background: #13303c;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .survey {
+            font:3em/1 'Lobster', sans-serif;
+        }
+
+        hr {
+            opacity: .7;
+        }
+
+        #submit {
+            margin-top: 7%;
+            margin-bottom: 10%;
+        } 
+
+        h3 {
+            margin-top: 3%;
+        }
+    </style>
+</head>
+<body>
+        
+        <form>
+                <fieldset>
+                  <h1 class="survey">Survey Questions</h1>
+                    <hr>
+                    <h2 class="text-danger">About You</h2>
+                  <div class="form-group">
+                    <label for="name">Name (Required)</label>
+                    <input type="text" id="name" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                            <label for="photo">Link to Photo (Required)</label>
+                            <input type="text" id="photo" class="form-control" required>
+                            </div>
+                    <hr>
+                  
+                    <h3 class= "text-primary">Adventure Seeker</h3>
+                    <h4>You love to explore the great outdoors and seek experiences in nature.</h4>
+                  <div class="form-group">
+                    <select data-placeholder="" class="select" id="q1">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <h3 class= "text-primary">Artsy Artistic</h3>
+                    <h4>You like to express yourself artistically and have a deep appreciation for art.</h4>
+                  <div class="form-group">
+                    <select class="select" id="q2">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <h3 class= "text-primary">Gaming Gamer</h3>
+                    <h4>You enjoy the challenges of videogames, boardgames and lasertag, etc..</h4>
+                  <div class="form-group">
+                    <select class="select" id="q3">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <h3 class= "text-primary">Movie Buff</h3>
+                    <h4>You often see movies in the theater and like to cuddle up on the couch to a good movie or show.</h4>
+                  <div class="form-group">
+                    <select class="select" id="q4">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <h3 class= "text-primary">Music Lover</h3>
+                    <h4>Music is the soundtrack of your life, you love concerts and music festivals.</h4>
+                  <div class="form-group">
+                    <select class="select" id="q5">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <h3 class= "text-primary">Workout Buddy</h3>
+                    <h4>You love a good workout and sweat session, working out with a friends is even better.</h4>
+                  <div class="form-group">
+                    <select class="select" id="q6">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <h3 class= "text-primary">Book Club</h3>
+                    <h4>You love to read and have in depth discussions about books and literature.</h4>
+                  <div class="form-group">
+                    <select class="select" id="q7">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <h3 class= "text-primary">Wanderlust Wanderer</h3>
+                    <h4>You love traveling and finding exciting new places visit either locally or afar.</h4>
+                  <div class="form-group">
+                    <select class="select" id="q8">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <h3 class= "text-primary">Studious Student</h3>
+                    <h4>You like taking classes and brushing up on or learning new skills</h4>
+                  <div class="form-group">
+                    <select class="select" id="q9">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <h3 class="text-primary">Foodie Friend</h3>
+                    <h4>You enjoy cooking and mostly eating photo worthy culinary delights.</h4>
+                  <div class="form-group">
+                    <select class="select" id="q10">
+                     <option value="">Choose an Option</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" id="submit" class="btn btn-danger btn-lg btn-block">Submit  <span class="glyphicon glyphicon-check"></span></button>
+              </form>
+
+          <footer class="footer navbar-fixed-bottom">
+            <div class="container">
+              <p class="text-left"><a href="/api/friends">API Friends Link</a> | <a href="https://github.com/jaynaneilson/FriendFinder" target="_blank">GitHub Repo</a></p>
+              <p>&copy; Jayna Neilson 2018<p>
+            </div>
+          </footer>
+        </div>
+
+      <!-- Modal -->
+      <div id="results-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2 class="modal-title"><strong>Friend Found!</strong></h2>
+          </div>
+
+          <div class="modal-body">
+            <h2 id="match-name"></h2>
+            <img id="match-img" src="" alt="">
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+  
+      </div>
+      
+    </div>
+    
+      </body>
+</html>
+
+<script type="text/javascript">
+    
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+
+         var userInput = {
+             name: $("#name").val().trim(),
+             photo: $("#photo").val().trim(),
+             answers: [
+                 $("#q1").val().trim(),
+                 $("#q2").val().trim(),
+                 $("#q3").val().trim(),
+                 $("#q4").val().trim(),
+                 $("#q5").val().trim(),
+                 $("#q6").val().trim(),
+                 $("#q7").val().trim(),
+                 $("#q8").val().trim(),
+                 $("#q9").val().trim(),
+                 $("#q10").val().trim(),
+             ]
+
+         };
+
+     $.post("/api/friends", userInput) 
+     .done(function(data) {
+
+       $("#match-name").text(data.name);
+       $("#match-img").attr("src", data.photo);
+
+        
+          $("#results-modal").modal("toggle");
+
+        });
+        
+    });
+      
+</script>
