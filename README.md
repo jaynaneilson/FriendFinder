@@ -2,6 +2,8 @@
 
 Friend Finder is a an app designed to find your best match and new best friend trough a short survey of 10 questions.
 
+![Alt Text](https://thumbs.gfycat.com/EmbarrassedBronzeBarasingha-size_restricted.gif)
+
 ## Demo
 
 Please give Friend Finder a try on Heroku [here](https://shrouded-caverns-11081.herokuapp.com/home).
