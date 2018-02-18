@@ -40,7 +40,6 @@ module.exports = function(app) {
                 }
             }
 
-            
             res.json(bestMatches);
         
         } else {
@@ -48,6 +47,8 @@ module.exports = function(app) {
         }
 
         friendData.push(thisUser);
+        res.json(friendData[totalDifference]);
 
     });
 }
+
