@@ -3,16 +3,16 @@ var friends = [
         name: "Elliot",
         photo: "./public/images/elliot.jpg",
         answers: [
-            "5",
-            "4",
-            "3",
-            "2",
-            "1",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
         ]
     },
 
@@ -35,7 +35,7 @@ var friends = [
 
     {
         name: "Helen",
-        photo: "./public/helen.jpg",
+        photo: "./public/images/helen.jpg",
         answers: [
             "1",
             "4",
@@ -52,7 +52,7 @@ var friends = [
 
     {
         name: "Jenny",
-        photo: "./public/jenny.jpg",
+        photo: "./public/images/jenny.jpg",
         answers: [
             "5",
             "4",
@@ -69,7 +69,7 @@ var friends = [
 
     {
         name: "Kristy",
-        photo: "./public/kristy.png",
+        photo: "./public/images/kristy.png",
         answers: [
             "4",
             "4",
@@ -85,7 +85,7 @@ var friends = [
     },
     {
         name: "Molly",
-        photo: "./public/molly.png",
+        photo: "./public/images/molly.png",
         answers: [
             "2",
             "2",
@@ -101,7 +101,7 @@ var friends = [
     },
     {
         name: "Steve",
-        photo: "./public/steve.jpg",
+        photo: "./public/images/steve.jpg",
         answers: [
             "5",
             "5",
@@ -117,7 +117,7 @@ var friends = [
     },
     {
         name: "Stevie",
-        photo: "./public/stevie.jpg",
+        photo: "./public/images/stevie.jpg",
         answers: [
             "4",
             "4",
@@ -133,7 +133,7 @@ var friends = [
     },
     {
         name: "Veronika",
-        photo: "./public/veronika.jpg",
+        photo: "./public/images/veronika.jpg",
         answers: [
             "3",
             "3",

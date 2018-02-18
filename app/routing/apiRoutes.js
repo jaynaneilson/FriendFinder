@@ -10,12 +10,12 @@ module.exports = function(app) {
        
         var thisUser = req.body;
         var differences = [];
+        var totalDifference = 0;
 
         
         if (friendData.length > 1) {
             
             friendData.forEach(function(user) {
-                var totalDifference = 0;
 
                 
                 for (var i = 0; i < thisUser.answers.length; i++) {
